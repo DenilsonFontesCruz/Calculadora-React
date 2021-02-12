@@ -69,7 +69,7 @@ export default class Calculadora extends Component {
 
     maxNumberVerify(e) {
         const value = this.state.printValue.concat(e)
-        if(value.length > 14) {
+        if(this.state.printValue.length > 14) {
             this.setState({
                 printValue: this.state.printValue
             })
