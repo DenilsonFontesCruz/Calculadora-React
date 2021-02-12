@@ -1,0 +1,30 @@
+.button {
+    color: white;
+    font-size: 35px;
+    font-family: 'Roboto';
+    border: 0;
+    padding: 0;
+}
+.button:focus {
+    border: none;
+    outline: none;
+}
+.numberButton:active {
+    background-color: #313131;
+}
+
+.operationButton:active {
+    background-color: #292929;
+}
+
+.numberButton {
+    background-color: #0c0c0c;
+}
+
+.operationButton {
+    background-color: #090909;
+}
+
+.triple {
+    grid-column: span 3;
+}

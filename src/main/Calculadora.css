@@ -1,0 +1,32 @@
+.calculadora {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #470740, #201568);
+}
+
+.display {
+    grid-area: display;
+    display: grid;
+}
+
+.buttons {
+    grid-area: buttons;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box {
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+    width: 350px;
+    height: 600px;
+    display: grid;
+    background-color: #101011;
+    overflow: hidden;
+    grid-template-rows: 25% 75%;
+    grid-template-columns: 100%;
+    grid-template-areas: 
+        'display'
+        'buttons'
+}
