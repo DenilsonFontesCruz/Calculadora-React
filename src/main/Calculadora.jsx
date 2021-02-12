@@ -105,7 +105,7 @@ export default class Calculadora extends Component {
         })
 
         this.setState({
-            printValue: result,
+            printValue: result.toString(),
             values: ['0', '+']
         })
 
